@@ -6,11 +6,10 @@ function App() {
     <>
       <div className="App">
         <div>
-          <h1>salam</h1>
+        <Header />
         </div>
       </div>
-      <Header />
-      <footer />
+
     </>
   );
 }

@@ -1,6 +1,98 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.navBarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.topMenu {
+  margin: 20px;
+  font-family: IranianSans;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 100px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.headerSvgLogin {
+  width: 20px;
+}
+
+.headerSvgBasket {
+  width: 20px;
+}
+
+@font-face {
+  font-family: "IranianSansBold";
+  src: url("../../assets/fonts/iransans/IranianSansBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IranianSans";
+  src: url("../../assets/fonts/iransans/IranianSansRegular.ttf")
+      format("truetype"),
+    url("../../assets/fonts/iransans/IRANSans-web.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.btnLogin {
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.btnLogin span {
+  font-family: Iraniansansbold;
+  font-size: 12px;
+  margin: 10px;
+  color: white;
+}
+
+.btnLogin {
+  padding: 0 7px;
+  background-color: darkblue;
+  cursor: pointer;
+}
+
+.btnBasket {
+  padding: 4px 0;
+  padding-left: 5px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btnBasket span {
+  font-family: Iraniansansbold;
+  font-size: 12px;
+}
+
+.quantityBasket {
+  width: 25px;
+  height: 25px;
+  background-color: darkorange;
+  padding-top: 6px;
+  color: white;
+}
+
+.btnBasketItems {
+  margin-right: 15px;
+}
