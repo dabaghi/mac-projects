@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.searchBarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchBarLeft .item1 {
+  margin-right: 20px;
+  font-family: IraniansansBold;
+  font-size: 12px;
+  color: rgb(21, 63, 129);
+  cursor: pointer;
+}
+
+.searchBarLogo {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.searchBarLeft .item2 {
+  font-family: IraniansansBold;
+  font-size: 12px;
+  color: white;
+}
+
+.searchBarRight input {
+  margin-right: 20px;
+    font-family: IraniansansBold;
+  text-align: right;
+  width: 550px;
+  outline: 0;
+  border: 0;
+  background: transparent;
+  opacity: 50%;
+}
+
+.searchBarRight span {
+  font-family: Iraniansans;
+  margin-left: 40px;
+}
+
+.searchBarContainer {
+    box-shadow: 3px 3px 3px rgb(248, 248, 248);
+    border: 1px solid rgb(243, 243, 243);  
+    padding: 25px 70px 25px 20px ;
+    border-radius: 10px;
+}
+
+.searchBarLeft button {
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: darkorange;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.searchBarRight .searchBox {
+    width: 600px;
+    padding: 10px 10px;
+    background: rgb(247, 247, 247);
+    border-radius: 5px;
+
+    
+}

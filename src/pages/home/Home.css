@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-body {
-  padding: 10px 40px;
-  min-width: 1080px;
+
+
+.searchBar {
+  margin-top: 40px;
 }

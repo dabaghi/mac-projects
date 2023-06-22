@@ -37,26 +37,11 @@
   width: 20px;
 }
 
-@font-face {
-  font-family: "IranianSansBold";
-  src: url("../../assets/fonts/iransans/IranianSansBold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 
-@font-face {
-  font-family: "IranianSans";
-  src: url("../../assets/fonts/iransans/IranianSansRegular.ttf")
-      format("truetype"),
-    url("../../assets/fonts/iransans/IRANSans-web.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.btnLogin {
-  margin-right: 10px;
-  border-radius: 10px;
-}
+/* .btnLogin:hover {
+  color: white;
+  transition: 0.4s;
+} */
 
 .btnLogin span {
   font-family: Iraniansansbold;
@@ -66,10 +51,19 @@
 }
 
 .btnLogin {
+  margin-right: 10px;
+  border-radius: 10px;
   padding: 0 7px;
   background-color: darkblue;
   cursor: pointer;
 }
+
+/*  */
+
+/* .btnLogin img:hover {
+  fill: black;
+} */
+
 
 .btnBasket {
   padding: 4px 0;
