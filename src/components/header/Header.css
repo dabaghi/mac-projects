@@ -9,11 +9,11 @@
   align-items: center;
 }
 
-.navBarContainer {
+.firstNavContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 60px;
+  white-space: nowrap;
 }
 
 .topMenu {
@@ -95,4 +95,68 @@
 
 .btnBasketItems {
   margin-right: 15px;
+}
+
+.secondNavLeft {
+  padding-left: 20px;
+}
+
+.telephone {
+  width: 30px;
+  margin-right: 10px;
+}
+.navOrderCallBtn {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-family: Iraniansans;
+  font-size: 12px;
+}
+
+.secondNavLeft:after {
+  content: "|";
+  padding: 0 10px;
+  font-size: 40px;
+  text-align: center;
+  opacity: 10%;
+}
+
+.navOrderCallBtn span {
+  margin: 3px 0;
+}
+
+.phone {
+  color: darkorange;
+  font-family: Iraniansansbold;
+  font-size: 11px;
+}
+
+.secondNavContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: rgb(247, 247, 247);
+  padding: 5px 0;
+  padding-right: 70px;
+  white-space: nowrap;
+}
+
+.secondNavBarItems {
+  font-family: Iraniansans;
+  font-size: 15px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.sipaLogo {
+  width: 30px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.irankhodroLogo {
+  width: 25px;
+  margin-left: 5px;
+  cursor: pointer;
 }
