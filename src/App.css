@@ -1,20 +1,16 @@
-body {
-  padding: 10px 40px;
-  min-width: 1080px;
+@font-face {
+  font-family: "IranianSansBold";
+  src: url("./assets/fonts/iransans/IranianSansBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "IranianSansBold";
-    src: url("./assets/fonts/iransans/IranianSansBold.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-@font-face {
-    font-family: "IranianSans";
-    src: url("./assets/fonts/iransans/IranianSansRegular.ttf")
-        format("truetype"),
-      url("./assets/fonts/iransans/IRANSans-web.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "IranianSans";
+  src: url("./assets/fonts/iransans/IranianSansRegular.ttf") format("truetype"),
+    url("./assets/fonts/iransans/IRANSans-web.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+

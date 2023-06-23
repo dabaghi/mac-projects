@@ -4,8 +4,26 @@
   box-sizing: border-box;
 }
 
-
+.navBar {
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 15px 50px 10px 50px;
+  position: fixed;
+  z-index: 10;
+  background: white;
+}
 
 .searchBar {
-  margin-top: 40px;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+body {
+  padding: 0 25px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
 }

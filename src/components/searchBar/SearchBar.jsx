@@ -10,7 +10,11 @@ function SearchBar() {
           <span className="item1">جستجو پیشرفته</span>
           <button className="flex">
             <span className="item2">!جستجو کن</span>
-            <img className="searchBarLogo" src={searchLogo} alt="searchBarLogo" />
+            <img
+              className="searchBarLogo"
+              src={searchLogo}
+              alt="searchBarLogo"
+            />
           </button>
         </div>
         <div className="searchBarRight">
